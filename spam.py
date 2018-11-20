@@ -92,7 +92,7 @@ Edmond
     s = smtplib.SMTP(smtp_server,port)
     s.ehlo()
     s.starttls()
-    s.login('edmondshao7@gmail.com','ke4se6@bg')
+    s.login('edmondshao7@gmail.com','put_your_passhere')
     s.sendmail('edmondshao7@gmail.com',[e], msg.as_string())
     s.quit()
     print 'Done'
